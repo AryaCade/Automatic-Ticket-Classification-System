@@ -1,73 +1,15 @@
-# Welcome to your Lovable project
+Built an AI-driven Automatic Ticket Classification System leveraging Google’s Gemini API to automatically categorize customer support tickets into classes like Login Issues, Payment Errors, Booking Problems, and Contact Requests.
 
-## Project info
+📊 Problem Solved: Manual ticket classification was slow and inconsistent, leading to longer customer response times.
 
-**URL**: https://lovable.dev/projects/14315e80-0940-4bf0-ace2-1eb74aacb429
+🛠 Tech Stack: Python, Gemini API (Generative AI), MongoDB, Streamlit (UI), REST API integration.
 
-## How can I edit this code?
+🔎 Approach:
 
-There are several ways of editing your application.
+Integrated Gemini API for advanced natural language understanding.
 
-**Use Lovable**
+Designed a pipeline to send customer queries to the model and receive structured category predictions.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/14315e80-0940-4bf0-ace2-1eb74aacb429) and start prompting.
+Built a Streamlit-based interactive UI for real-time classification.
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/14315e80-0940-4bf0-ace2-1eb74aacb429) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+🚀 Results: Delivered fast and accurate ticket categorization, reducing manual work and enhancing customer support efficiency.
